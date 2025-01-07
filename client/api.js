@@ -12,7 +12,6 @@ async function getAllNames() {
         console.log(ex.message)
     }
 }
-
 async function getMaleNames() {
     try {
         const resp = await fetch(API_URL_MALE_NAMES)
